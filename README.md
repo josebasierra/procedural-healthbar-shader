@@ -4,4 +4,5 @@ Procedural [healthbar shader](https://github.com/josebasierra/procedural-healthb
 Unity 2021.3 LTS, Universal Render Pipeline (URP).
 
 
-![Gif](healthbars.gif)
+![Gif](healthbars.gif)  
+![Img](healthbarProperties.png)  
