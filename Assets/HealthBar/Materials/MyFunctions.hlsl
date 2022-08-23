@@ -1,7 +1,7 @@
 #ifndef myfunctions_INCLUDED
 #define myfunctions_INCLUDED
 
-#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
+//#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
 float Lerp(float start, float end, float t) 
 {

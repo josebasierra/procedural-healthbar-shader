@@ -20,17 +20,17 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: hmat8
+  m_Name: healthBar
   m_Shader: {fileID: 4800000, guid: 8b409af744179ac48ae9717baa10feb5, type: 3}
   m_ValidKeywords:
-  - _SHAPE_RHOMBUS
+  - _SHAPE_CIRCLE
   m_InvalidKeywords:
   - _COLOR_BLUE
   - _HEALTHNORMALIZED_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -118,7 +118,7 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Shape: 2
+    - _Shape: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -126,17 +126,17 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _borderWidth: 0.025
+    - _borderWidth: 0.005
     - _emptyThreshold: 0.2
     - _endThreshold: 0.9
     - _fillValue: 0.525
     - _floatProperty: 0
     - _fullThreshold: 0.9
-    - _healthNormalized: 1
+    - _healthNormalized: 0.31
     - _key: 0
     - _lowLifeThreshold: 0.2
     - _startThreshold: 0.2
-    - _waveAmp: 0.004
+    - _waveAmp: 0.01
     - _waveFreq: 8
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
@@ -144,9 +144,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _backgroundColor: {r: 0, g: 0, b: 0, a: 0.25}
-    - _borderColor: {r: 0.2924528, g: 0.2924528, b: 0.2924528, a: 1}
+    - _borderColor: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0.8509804}
     - _emptyColor: {r: 0.8207547, g: 0.17344245, b: 0.17344245, a: 1}
-    - _endColor: {r: 0.74085927, g: 0.066666685, b: 0.9529412, a: 1}
+    - _endColor: {r: 0.8773585, g: 0.13495642, b: 0.12746526, a: 1}
     - _fullColor: {r: 0.2453214, g: 0.8962264, b: 0.23166601, a: 1}
-    - _startColor: {r: 0.3143666, g: 0.26475614, b: 0.3490566, a: 1}
+    - _startColor: {r: 0.6037736, g: 0.20462953, b: 0.18454966, a: 1}
   m_BuildTextureStacks: []
